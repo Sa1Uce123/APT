@@ -45,6 +45,35 @@ div{
     justify-content:center;
     background-color: rgba(0, 0, 0, 0.795);
 }
+#text-container { 
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  #button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .button {
+    background-color: #f7f7f6;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+  }
+  
+  .button:hover {
+    background-color: #e9551a;
+    color: #fff;
+    transform: scale(1.05);
+  }
+
 </style>
 </head>
 <body>
@@ -67,6 +96,9 @@ div{
     <p>Aqui puede encontrar el cuento en formato de audio libro</p>
     </div>
     <audio id="audio1" src="audio/simbad_1.mp4" controls style="background-color: #f3181800; padding: 10px;"></audio>
-   
+    <button id="button1" class="button"><a href="../index.html">Inicio</a></button>
+    <button id="button2" class="button"><a href="laIsla.html">La isla y sus nativos</a></button>
+    <button id="button3" class="button"><a href="regalo.html">Un regalo de dios</a></button>
+     
   </body>
 </html>
