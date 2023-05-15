@@ -1,7 +1,4 @@
-
-    
-  
-  h1 {
+    h1 {
     text-align: center;
     font-size: 36px;
     margin-top: 30px;
@@ -18,7 +15,7 @@
   }
 
   .button {
-    background-color: #e2e62c;
+    background-color: #f7f7f6;
     color: #333;
     border: none;
     padding: 10px 20px;
@@ -31,7 +28,7 @@
   }
   
   .button:hover {
-    background-color: #FFA07A;
+    background-color: #e9551a;
     color: #fff;
     transform: scale(1.05);
   }
